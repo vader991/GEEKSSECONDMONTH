@@ -33,7 +33,7 @@ class Distance:
 
     def __sub__(self, other):
         if not isinstance(other, Distance):
-            raise TypeError("Можно вычитать только Distance из Distance")
+            raise TypeError("Можно вычитать только Distance  из Distance")
 
         total_meters = self._to_meters() - other._to_meters()
         new_value = self._from_meters(total_meters, self.unit)
