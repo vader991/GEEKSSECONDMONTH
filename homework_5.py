@@ -1,5 +1,5 @@
 class Distance:
-    # коэффициенты перевода в метры
+
     _conversion_to_meters = {
         "cm": 0.01,
         "m": 1,
@@ -45,12 +45,12 @@ d1 = Distance(10, "m")
 d2 = Distance(2, "km")
 d3 = Distance(300, "cm")
 
-print(d1)          # 10 m
-print(d2)          # 2 km
-print(d3)          # 300 cm
+print(d1)
+print(d2)
+print(d3)
 
-print(d1 + d2)     # 2010 m
-print(d2 + d1)     # 2.01 km
-print(d1 + d3)     # 13 m
+print(d1 + d2)
+print(d2 + d1)
+print(d1 + d3)
 
-print(d2 - d1)     # 1.99 km
+print(d2 - d1)
