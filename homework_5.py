@@ -27,7 +27,7 @@ class Distance:
 
         total_meters = self._to_meters() + other._to_meters()
 
-        # результат возвращаем в единице первого объекта
+        
         new_value = self._from_meters(total_meters, self.unit)
         return Distance(new_value, self.unit)
 
@@ -40,7 +40,7 @@ class Distance:
         return Distance(new_value, self.unit)
 
 
-# Тестирование
+
 d1 = Distance(10, "m")
 d2 = Distance(2, "km")
 d3 = Distance(300, "cm")
