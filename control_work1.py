@@ -13,7 +13,7 @@ class Animal:
 
     def set_age(self, age):
         if age < 0 or age > 40:
-            raise ValueError ("Возраст не может быть больше 0 и больше 130")
+            raise ValueError ("Возраст не может быть меньше 0 и больше 130")
         self.__age = age
 
     def get_age(self):
